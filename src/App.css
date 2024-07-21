@@ -1,0 +1,15 @@
+@keyframes animateBackground {
+  0% { background-color: #e0ebbd; }
+  25% { background-color: #ebd0bd; }
+  50% { background-color: #b2ebf2; }
+  75% { background-color: #d6bdeb; }
+  100% { background-color: #e0ebbd; }
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  animation: animateBackground 5s infinite;
+}
